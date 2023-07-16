@@ -1,0 +1,17 @@
+.search {
+  &__block {
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 30px 50px 150px 0px rgba(39, 31, 26, 0.2);
+    padding: 50px;
+    margin-top: -105px;
+  }
+
+  &__title {
+    @include reset-model;
+    @include font-cabinet-bold;
+    @include font(24px, 30px);
+    color: $color-text-dark;
+    margin-bottom: 20px;
+  }
+}

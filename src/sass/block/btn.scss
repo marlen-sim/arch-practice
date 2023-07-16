@@ -4,13 +4,13 @@
   @include font(16px, 20px);
   background-color: $color-orange;
   color: #fff;
-  padding: 10px 30px;
+  padding: 20px 40px;
   border-radius: 6px;
   transition: 0.2s;
   &:hover {
     background-color: darken($color-orange, 5%);
   }
-  &-promo {
-    padding: 20px 40px;
+  &-contact {
+    padding: 10px 30px;
   }
 }
